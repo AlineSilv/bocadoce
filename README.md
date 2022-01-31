@@ -8,6 +8,7 @@
 <img alt="imagem do projeto" src="assets/feliznatal.png" width="100%">
 </p>
 
+<h6>Este projeto ainda está em desenvolvimento!</h6>
 
 ## 🚀 Tecnologias
 
