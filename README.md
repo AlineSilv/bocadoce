@@ -5,8 +5,9 @@
 </p>
 
 <p align="center">
+  
 ![bocadoce-preview](https://user-images.githubusercontent.com/86479510/152601960-beb3aa4f-45ac-4ee4-9b6c-026fa13687e0.gif)
-
+  
 </p>
 
 <h6>Este projeto ainda está em desenvolvimento!</h6>
