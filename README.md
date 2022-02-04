@@ -8,6 +8,7 @@
 <img alt="imagem do projeto" src="assets/feliznatal.png" width="100%">
 </p>
 
+<h6>Este projeto ainda está em desenvolvimento!</h6>
 
 ## 🚀 Tecnologias
 
@@ -29,20 +30,10 @@ Utilitários
 
 ## 💻 Projeto
 
-Página no formato One Page, responsiva, no tema natalino. Também pode ser usada em diversos tipos de micro, pequena e média empresas. 
-Contém as seguintes seções: Header, Navigation, Home, Acessórios, Doação, Contato e Footer.
+Página no formato One Page, também pode ser usada em diversos tipos de micro, pequena e média empresas. 
+Contém as seguintes seções: Header, Navigation, Home, Serviços, Contato e Footer.
 
 
 ## 🔖 Layout
 
-O layout do projeto foi baseado no desafio 16 do @iuricode para treinamento de habilidades com HTML5 e CSS3.
-
-Você pode visualizar o layout do projeto original através [desse link](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=39341%3A687) (o meu está modificado). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
-
-
-
-<h5 align="center"><a href="https://projeto-de-natal-desafio16.vercel.app/#home">ACESSE AQUI O PROJETO FINAL</a></h5>
-
----
-
-Feito com ❤️ por Rakel Moreira!
+O layout foi pensado de forma simples a atender requisitos básicos que ilustrem bem a oferta da empresa e possa atender as expecativas de usabilidade por parte do cliente.
