@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Six+Caps&display=swap" rel="stylesheet">
+    <!--STYLES-->
+    
+    <link href="./styles/global.css" rel="stylesheet" type="text/css" />
+    <link href="./styles/styles.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/scrollreveal"></script>
+
+    <title>Boca Doce| Serviços</title>
+</head>
+<body>
+        <nav>
+          <a class="logo" href="#">
+            <!--<img src="./assets/4.png" alt="Boca Doce" width="100%;" height="100%;" title="Boca Doce Logo">-->
+            B<img class="eye"src="C:\Users\aline\Desktop\aal-mine\2.Período\pro\Boca-Doce\assets\eye-smile.png" width="50px;"><div style="padding-right:40px;">CA</div>
+            D<img class="eye"src="C:\Users\aline\Desktop\aal-mine\2.Período\pro\Boca-Doce\assets\eye-smile.png" width="50px;"><div style="padding-right:40px;">CE</div>
+          </a>
+          <!-- MENU 
+          <div class="menu">
+            <ul class="grid">
+              <li><a class="title" href="#home">Início</a></li>
+              <li><a class="title" href="#acessorios">Serviços</a></li>
+              <li><a class="title" href="#doacao">Doceria</a></li>
+              <li><a class="title" href="#contato">Nos Encontre</a></li>
+            </ul>
+          </div>
+              <div class="toggle icon-menu"></div>
+              <div class="toggle icon-close"></div> -->
+        </nav>
+    <div class="discount">
+        <p>Negociações e planejamento com prazo, pelo telefone de contato.</p>
+    </div>
+    <div class="page-title">
+        <p>Ornamentação de Eventos</p>
+    </div>
+    <div class="banner">
+        
+        <div class="banner-texts">
+            <h1 class="banner-title">Seu momento mais especial, mais a sua cara!</h1>
+
+            <p id="typed" class="banner-text"></p>
+
+            <div id="typed-strings">
+                <p>Os eventos são decorados com completude e bastante detalhes, tudo planejado e boa parte é executada artesanalmente.</p>
+            </div>  
+        </div>
+
+        <div class="mask"></div>
+
+        <!-- <img src="./img/banner.png" alt="Banner" /> -->
+
+    </div>
+
+    <main>
+        <div class="text-top">
+            <p class="destaque-title">Destaques</p>
+            <p class="destaque-subtitle">Fique a vontade pra entrar em contato e expor suas idéias sobre como deseja planejar seu evento, aqui vai algumas 
+                prévias de eventos realizados para se inspirar.</p>
+        </div>
+
+        <div class="eventos">
+            <div class="evento-box">
+                <img src="./img/1.png" alt="" />
+            </div>
+            <div class="evento-box">
+                <img src="./img/2.png" alt="" />
+            </div>
+            <div class="evento-box">
+                <img src="./img/3.png" alt="" />
+            </div>
+            <div class="evento-box">
+                <img src="./img/4.png" alt="" />
+            </div>
+            <div class="evento-box">
+                <img src="./img/5.png" alt="" />
+            </div>
+            <div class="evento-box">
+                <img src="./img/6.png" alt="" />
+            </div>
+            <div class="evento-box">
+                <img src="./img/7.png" alt="" />
+            </div>
+            <div class="evento-box">
+                <img src="./img/8.png" alt="" />
+            </div>
+        </div>
+    </main>
+
+        <footer>
+                <a class="logo">
+                    B<img class="eye"src="C:\Users\aline\Desktop\aal-mine\2.Período\pro\Boca-Doce\assets\eye-smile.png" width="20px;"><div style="padding-right:40px;">CA</div>
+                    D<img class="eye"src="C:\Users\aline\Desktop\aal-mine\2.Período\pro\Boca-Doce\assets\eye-smile.png" width="20px;"><div style="padding-right:40px;">CE</div>
+                </a>
+              <div class="social"> 
+                <a href="https://www.instagram.com/" target="blank">
+                  <img src="C:\Users\aline\Desktop\aal-mine\2.Período\pro\Boca-Doce\assets\instagram.svg" alt="Logo do instagram"> - Art de Fazer</a>
+              </div>
+          </footer>
+      
+           <!-- scrollreveal -->
+          <script src="https://unpkg.com/scrollreveal"></script>
+      
+           <!-- main.js -->
+          <script src="main.js"></script>
+        </body>
+      </html>
+    </footer>
+</body>
+
+<script>
+    var typed= new Typed('#typed', {
+        stringsElement: '#typed-strings',
+        typeSpeed: 30
+    });
+
+    const sr = ScrollReveal({
+        origin: 'top',
+        distance:'60px',
+        duration: 2000,
+        reset: false
+    });
+
+    ScrollReveal().reveal('.destaque-subtitle', { delay: 100 });
+    ScrollReveal().reveal('.destaque-title', { delay: 100 });
+    ScrollReveal().reveal('.evento-box', { delay: 250 });
+
+    ScrollReveal().reveal('.banner-title', { delay: 300 });
+</script>
+</html>
