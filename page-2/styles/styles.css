@@ -93,7 +93,7 @@ body {
 .banner {
     padding: 155px 2rem 135px 10rem;
 
-    background: url('../img/banner.png');
+    background: url('../img/banner.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -154,7 +154,7 @@ footer {
 
 @media (max-width: 767px) {
     .banner {
-        background: url('../img/banner2.png');
+        background: url('../img/banner2.jpeg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
